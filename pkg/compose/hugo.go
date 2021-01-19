@@ -122,7 +122,7 @@ BookSection = 'docs'
 BookDateFormat = 'Jan 2, 2006'
 BookSearch = true
 BookComments = true
-BookPortableLinks: true
+BookPortableLinks = true
 
 # Monako
 MonakoGitLinks = true
