@@ -91,7 +91,7 @@ timeout = 60000
 
 # Book configuration
 disablePathToLower = true
-enableGitInfo = false
+enableGitInfo = true
 
 # Needed for mermaid/katex shortcodes
 [markup]
@@ -122,6 +122,7 @@ BookSection = 'docs'
 BookDateFormat = 'Jan 2, 2006'
 BookSearch = true
 BookComments = true
+BookPortableLinks: true
 
 # Monako
 MonakoGitLinks = true

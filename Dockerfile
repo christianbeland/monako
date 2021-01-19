@@ -4,6 +4,8 @@ FROM golang:1.14
 WORKDIR /build
 ADD . /build
 
+RUN git submodule update --init --recursive -j 8
+
 RUN make init
 
 ENV GOOS=linux
