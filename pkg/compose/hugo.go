@@ -123,6 +123,7 @@ BookDateFormat = 'Jan 2, 2006'
 BookSearch = true
 BookComments = true
 BookPortableLinks = true
+BookTheme = 'auto'
 
 # Monako
 MonakoGitLinks = true
